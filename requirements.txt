@@ -1,3 +1,3 @@
 Flask
-torch
+torch==2.1.0
 git+https://github.com/facebookresearch/audiocraft#egg=audiocraft
