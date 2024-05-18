@@ -34,7 +34,7 @@ def generate_music():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-@app.route('/generate_music', methods=['GET'])
+@app.route('/cron-job', methods=['GET'])
 def cron():
     print("cron job")
 
